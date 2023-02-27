@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+article {
+    width: 700px;
+    background: whitesmoke;
+    padding: 20px 20px 0;
+    font-size: 18px;
+    overflow: hidden;
+    transition: max-height 1s;
+    text-align: justify;
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+article.abierto {
+    max-height: 1000px;
+}
+article.cerrado {
+    max-height: 270px;
+}
+
+button {
+    background: grey;
+    color: rgb(255, 255, 255);
+    padding: 0.6rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 12PX;
+}
+button2 {
+    background: gray;
+    color: rgb(255, 255, 255);
+    padding: 0.6rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 12PX;
+}
+button3 {
+    background: gray;
+    color: rgb(255, 255, 255);
+    padding: 0.6rem;
+    margin-top: -46px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 12PX;
+       
+        
+}
+
+button:hover,button2:hover,button3:hover,button4:hover,button5:hover,button6:hover {
+    cursor: pointer;
+    background: lightgray;
+}
+
+h1{
+    margin-bottom: 5px;
+    font-family: 'Tilt Prism', cursive;
+    color: black;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 30px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Tilt Prism', cursive;
+}
+
+h4{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-family: 'Tilt Prism', cursive;
+}
+
+p{
+    margin-bottom: 10px;
+    font-family: 'Kanit', sans-serif;   
+    font-size: 18px;
+    align-items: center;
+    width: 620px;
+    margin-top: 30px;
+}
+
+p2{
+    margin-bottom: 40px;
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+    float: right;
+    margin-left: 48px;
+    margin-top: 30px;
+    font-family: 'Kanit', sans-serif;  
+    width: 800px;  
+
+}
+
+
+img{
+    
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 60px;
+}
